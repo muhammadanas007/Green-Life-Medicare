@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainheader{
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img{
+    width: 15.625rem;
+    height: 7.5rem;
+    padding-left: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+.mainheader nav{
+    width: 28.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menubtn{
+    margin-right: 3.75rem;
+}
+
+.mainheader button{
+     padding: 0.625rem 2.8125rem; /*Updown LeftRight */
+     text-align: center;
+     font-size: 0.875rem;
+     color: #fff;
+     border: none;
+     background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,223,147,1) 0%, rgba(27,119,37,1) 55%);
+     /* linear-gradient(to-right,#83ff64,#055510,#83ff64); */
+     border-radius: 0.625rem;
+}
+
+main{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .left-sec{
+    padding-left: 3.125rem;
+}
+
+main .right-sec{
+    padding-right: 3.125rem;
+}
+
+.right-sec img{
+    width: 100%;
+    height: auto;
+}
+
+.left-sec h2{
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 6.25rem;
+}
+
+.left-sec h1{
+    font-size: 3.4375rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0.75rem 0;
+}
+
+.left-sec p{
+    margin-bottom: 1.25rem;
+}
+
+.left-sec button{
+    padding: 0.9375rem 2.8125rem; /*Updown LeftRight */
+     text-align: center;
+     font-size: 0.875rem;
+     color: #fff;
+     border: none;
+     background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,223,147,1) 0%, rgba(27,119,37,1) 55%);
+     /* linear-gradient(to-right,#83ff64,#055510,#83ff64); */
+     border-radius: 0.625rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
